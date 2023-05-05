@@ -1,0 +1,56 @@
+@media (min-width: 1026px) {
+  .container {
+    max-width: 98%;
+  }
+  a {
+    font-size: calc(0.3em + 1vw) !important;
+  }
+  .row div {
+    flex-wrap: nowrap !important;
+    margin-left: unset !important;
+  }
+  .sothich {
+    padding: 0 3%;
+  }
+  .cc5 {
+    width: 100%;
+  }
+  .cc1,
+  .cc2,
+  .cc3 {
+    max-width: 250vh;
+    width: 50%;
+    flex-wrap: nowrap !important;
+  }
+  .cc4 {
+    flex-wrap: wrap !important;
+  }
+  .cc6 {
+    width: 50% !important;
+  }
+  .w-100 {
+    flex-wrap: wrap !important;
+  }
+  .row > .badge {
+    flex: 0 0 calc(18.33% - 1em) !important;
+  }
+  .row > .vananh {
+    width: 28.33% !important;
+  }
+  .deve1 {
+    order: 3 !important;
+    justify-content: flex-end !important;
+  }
+  .d-none1 {
+    display: none !important;
+    /* display: flex !important; */
+  }
+}
+@media (max-width: 1300px) {
+  .navbar-collapse {
+    margin: auto auto;
+  }
+  .bi2 {
+    font-size: calc(1.2em + 3vw) !important;
+  }
+}

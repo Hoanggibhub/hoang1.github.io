@@ -1,0 +1,127 @@
+@media (max-width: 1025px) {
+  .tenrieng {
+    display: none;
+  }
+
+  .navbar-collapse {
+    margin: auto 10% !important;
+    /* flex-direction: row; */
+  }
+  .lead {
+    font-size: 1rem;
+    line-height: 1.4;
+    /* margin-bottom: 1.2rem; */
+  }
+  .wrap {
+    flex-wrap: wrap;
+  }
+  .container {
+    margin: none !important;
+
+    display: ruby-text-container;
+  }
+  /* .d-grid1 {
+    flex: 1 0 375px;
+  } */
+  .cc1,
+  .cc2,
+  .cc3,
+  .cc4 {
+    flex-wrap: wrap !important;
+  }
+
+  .w-100 {
+    /* font-size: xx-small; */
+    flex-wrap: wrap !important;
+    margin-left: unset;
+  }
+  .w-50 {
+    padding-left: unset;
+  }
+  /* kinh nghiem */
+  .box-1 {
+    height: 783px;
+    order: 1;
+  }
+  /* học vấn */
+  .box-2 {
+    height: 530px;
+    order: 3;
+  }
+  /* hoạt động */
+  .box-3 {
+    height: 530px;
+    order: 2;
+  }
+  /* sở thích */
+  .box-4 {
+    height: 330px;
+    order: 6;
+  }
+  /* ngôn ngữ */
+  .box-5 {
+    height: 330px;
+    order: 5;
+  }
+  /* kĩ năng */
+  .box-6 {
+    height: 530px;
+    order: 4;
+  }
+}
+@media (min-width: 770px) {
+  .row div {
+    flex-wrap: wrap !important;
+    margin-left: unset !important;
+  }
+  .d-grid1 {
+    /* flex: 1 0 365px; */
+    flex: 1 1 calc(28.333333% - 1em) !important;
+  }
+  .row > .vananh {
+    width: 47.33% !important;
+    /* flex: 1 1 137px; */
+    /* font-size: 80%; */
+    font-size: calc(0.5em + 0.4vw) !important;
+  }
+  .deve1 {
+    display: flex !important;
+    flex-wrap: wrap !important;
+    width: 90% !important;
+    order: 4;
+    /* justify-content: flex-end !important; */
+  }
+  .d-none1 {
+    /* display: none!important; */
+    display: flex !important;
+  }
+  .navbar-nav {
+    flex-direction: row;
+  }
+  li.nav-item {
+    margin: auto auto;
+  }
+
+  .col-xxl-4 {
+    flex: 0 0 auto !important;
+    width: 33.33333333% !important;
+  }
+  .col-md-6 {
+    width: 100%;
+  }
+  .row > .badge {
+    flex: 0 0 calc(18.33% - 1em) !important;
+    margin-left: unset !important;
+  }
+  .cc6 {
+    width: 100% !important;
+  }
+  .cc1,
+  .cc2,
+  .cc3 {
+    width: 50%;
+  }
+  h6 {
+    font-size: calc(0.3em + 0.7vw) !important;
+  }
+}

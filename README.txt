@@ -1,0 +1,2 @@
+1. SẢN PHẨM ĐƯỢC LÀM THỦ CÔNG TỪ CHÍNH BẢN THÂN , CÓ THAM KHẢO TÀI LIỆU VIDEO TỪ FUNIX , NGOÀI RA KHÔNG SỬ DỤNG CODE CỦA AI ĐỂ XÂY DỰNG SẢN PHẨM
+2. LINK DẪN TỚI WEB https://hoanggibhub.github.io/hoang.github.io

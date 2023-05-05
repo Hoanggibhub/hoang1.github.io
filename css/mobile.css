@@ -1,0 +1,124 @@
+@media (max-width: 769px) {
+  .navbar-nav {
+    text-align: none;
+    /* flex-direction: row; */
+  }
+
+  body {
+    /* -webkit-text-size-adjust: 80% !important; */
+    /* width: 100% !important; */
+    margin-left: unset !important;
+    margin-right: unset !important;
+    padding-left: unset !important;
+    padding-right: unset !important;
+  }
+  .w-50 {
+    width: 100% !important;
+    padding-left: unset !important;
+  }
+
+  a {
+    font-size: calc(0.8em + 1vw) !important;
+  }
+
+  .textcenter {
+    text-align: left !important;
+  }
+  .navbar-collapse {
+    /* margin: auto 200px; */
+    margin-left: 50px;
+  }
+  .box-1 {
+    height: 680px;
+  }
+  /* kinh nghiem */
+  .box-1 {
+    height: 783px;
+    order: 1;
+  }
+  /* học vấn */
+  .box-2 {
+    height: 530px;
+    order: 5;
+  }
+  /* hoạt động */
+  .box-3 {
+    height: 530px;
+    order: 4;
+  }
+  /* sở thích */
+  .box-4 {
+    height: 330px;
+    order: 6;
+  }
+  /* ngôn ngữ */
+  .box-5 {
+    height: 330px;
+    order: 3;
+  }
+  /* kĩ năng */
+  .box-6 {
+    height: 530px;
+    order: 2;
+  }
+
+  .section {
+    padding: 0 10px;
+  }
+  .m-4 {
+    margin: 20px 1px !important;
+  }
+  .p-4 {
+    padding: 20px 15px !important;
+  }
+  .container {
+    --bs-gutter-x: unset !important;
+  }
+  .cc1 {
+    border-bottom: 1px solid #d6c08d;
+  }
+  .cc2 {
+    border-left: unset;
+  }
+  .cc6 {
+    width: 100% !important;
+  }
+  .text-left.border.d-flex.my-auto.align-items-center.d-inline-block.col-md-6.gap-4 {
+    flex-wrap: wrap !important;
+  }
+  .row > .badge {
+    flex: 0 0 calc(18.33% - 1em) !important;
+  }
+  .row > .vananh {
+    width: 100% !important;
+  }
+  .row {
+    --bs-gutter-x: unset !important;
+  }
+}
+@media (min-width: 390px) {
+  h1 {
+    font-size: calc(1.375rem + 1.5vw) !important ;
+  }
+  h3 {
+    font-size: calc(1.3rem + 0.6vw) !important;
+  }
+  h4 {
+    font-size: calc(0.4rem + 1vw) !important;
+  }
+
+  .siusiu {
+    font-size: calc(0.2em + 0.6vw) !important;
+  }
+
+  p {
+    font-size: calc(0.7em + 0.4vw) !important;
+  }
+  h6 {
+    font-size: calc(0.7em + 1vw);
+  }
+  .lh-4 td {
+    height: 50px;
+    font-size: 10px;
+  }
+}
